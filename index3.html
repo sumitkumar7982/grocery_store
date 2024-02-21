@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grocery store-Website</title>
+  <link rel="stylesheet" href="style3.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div>
+      <i class="fa-solid fa-basket-shopping"></i>
+      <a href="#" class="logo"><i class="fast shopping-basket"></i>Grocery</a>
+    </div>
+
+
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="#features">Features</a>
+      <a href="#products">Products</a>
+      <a href="#categories">Categories</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#blogs">Blogs</a>
+    </nav>
+
+    <div class="icons">
+
+      <div class="fa-solid fa-bars" id="menu-btn"></div>
+      <div class="fa-solid fa-user" id="login-btn"></div>
+      <div class="fa-solid fa-cart-plus" id="cart-btn"></div>
+      <div class="fa-solid fa-magnifying-glass" id="search-btn"></div>
+
+    </div>
+
+    <form action="" class="search-form">
+      <input type="search" id="search" placeholder="search here......">
+      <label for="serach-box" class="fa-solid fa-magnifying-glass"></label>
+    </form>
+
+    <div class="shopping-cart">
+      <div class="box">
+        <i class="fa-solid fa-trash-can"></i>
+        <img src="images/watermelon.png" alt="">
+        <div class="content">
+          <h3>watermelon</h3>
+          <span class="price"> Rs-55/</span>
+          <span class="quantity">1Kg</span>
+        </div>
+      </div>
+
+      <div class="box">
+        <i class="fa-solid fa-trash-can"></i>
+        <img src="images/onion.jpg" alt="">
+        <div class="content">
+          <h3>Onion</h3>
+          <span class="price"> Rs-35/</span>
+          <span class="quantity">1Kg</span>
+        </div>
+      </div>
+
+      <div class="box">
+        <i class="fa-solid fa-trash-can"></i>
+        <img src="images/chicken.jpg" alt="">
+        <div class="content">
+          <h3>Chicken</h3>
+          <span class="price"> Rs-235/</span>
+          <span class="quantity">1Kg</span>
+        </div>
+      </div>
+
+      <div class="total">Total:Rs-325/</div>
+
+      <button href="#" class="button">checkout</button>
+    </div>
+
+    <form action="" class="login-form">
+      <h3>Login here</h3>
+      <input type="email" class="box" placeholder="Enter your email...">
+      <input type="password" class="box" placeholder="Enter your password...">
+      <p>Forgot your password ?<a href="#">Click here</a></p>
+      <p>Don't have an account ?<a href="#">Sign up.</a></p>
+      <button class="box2" value="">Login now </button>
+    </form>
+
+
+  </header>
+
+
+
+  <section class="home" id="home">
+    <div class="content">
+      <h3>Fresh and <span>Organic </span>porducts for you</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam voluptatum ea officia facere nihil
+        ducimus, ab voluptatibus obcaecati aut eos molestias expedita maiores incidunt sapiente magni nisi
+        harum! Amet, tempore.</p>
+      <button class="btn">Shop now</button>
+    </div>
+  </section>
+
+  <section class="features" id="features">
+    <h1 class="heading"> our <span>features</span></h1>
+
+    <div class="box-container">
+      <div class="box3 ">
+        <img src="https://png.pngtree.com/element_origin_min_pic/16/11/17/d8773120926aaede2fc7f1f2ed211775.jpg" alt="">
+        <h3>Fresh and organic</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam rem illo</p>
+        <a href="#" class="btnn">Read more</a>
+      </div>
+      <div class="box3">
+        <img
+          src="https://png.pngtree.com/png-vector/20210622/ourmid/pngtree-delivery-boy-with-scooter-png-image_3483434.jpg"
+          alt="">
+        <h3>Free delivery</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam rem illo</p>
+        <a href="#" class="btnn">Read more</a>
+      </div>
+      <div class="box3">
+        <img src="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/3229460/easy-payment-clipart-md.png"
+          alt="">
+        <h3>Easy payments</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam rem illo</p>
+        <a href="#" class="btnn">Read more</a>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="products" id="products">
+    <h1 class="heading">Our <span>Products</span></h1>
+    <div class="swiper product-slider">
+
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide box">
+
+          <img src="images/image1.jpg" alt="">
+          <h3>Fresh Oranges</h3>
+          <div class="price"> Rs-60</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="swiper-slide box">
+
+          <img src="images/image2.png" alt="">
+          <h3>Fresh Oranges</h3>
+          <div class="price"> Rs-60</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="swiper-slide box">
+
+          <img src="images/image3.png" alt="">
+          <h3>Fresh Oranges</h3>
+          <div class="price"> Rs-60</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="swiper-slide box">
+
+          <img src="images/image4.png" alt="">
+          <h3>Fresh Oranges</h3>
+          <div class="price"> Rs-60</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <a href="#" class="btn">Add to cart</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="swiper product-slider">
+
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide box">
+
+          <img src="images/image5.jpg" alt="">
+          <h3>Fresh Oranges</h3>
+          <div class="price"> Rs-60</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="swiper-slide box">
+
+          <img src="images/image6.jpg" alt="">
+          <h3>Fresh Oranges</h3>
+          <div class="price"> Rs-60</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="swiper-slide box">
+
+          <img src="images/image7.jpg" alt="">
+          <h3>Fresh Oranges</h3>
+          <div class="price"> Rs-60</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="swiper-slide box">
+
+          <img src="images/image8.png" alt="">
+          <h3>Fresh Oranges</h3>
+          <div class="price"> Rs-60</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <a href="#" class="btn">Add to cart</a>
+        </div>
+      </div>
+    </div>
+
+
+
+  </section>
+
+  <section class="categories" id="categories">
+    <h1 class="heading">Our <span>Categories</span></h1>
+    <div class="box-container">
+      <div class="box img1">
+        <img src="https://media.istockphoto.com/id/1172183568/photo/fruits-and-vegetables.webp?b=1&s=170667a&w=0&k=20&c=S0a1rdI7VA4t9oKu4VX6TFYag2YpeEuI5stnR8iMCII="
+          alt="Fresh Vegetables">
+        <h3>Fresh Vegetables</h3>
+        <p>upto 45% off</p>
+        <a href="#" class="btn">Shop now</a>
+      </div>
+
+      <div class="box img2">
+        <img
+          src="https://www.bing.com/th?id=OIP.WqWvwQx34mifgxFDFOGdFQHaGb&w=110&h=100&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2"
+          alt="">
+        <h3>Fresh Fruits</h3>
+        <p>upto 25% off</p>
+        <a href="#" class="btn">Shop now</a>
+      </div>
+
+      <div class="box img3">
+        <img src="images/meat.png" alt="">
+        <h3>Fresh Meat</h3>
+        <p>upto 20% off</p>
+        <a href="#" class="btn">Shop now</a>
+      </div>
+
+      <div class="box img4">
+        <img
+          src="https://c0.klipartz.com/pngpicture/534/336/gratis-png-leche-productos-lacteos-crema-kefir-queso-leche-thumbnail.png"
+          alt="">
+        <h3> Milk porducts</h3>
+        <p>upto 35% off</p>
+        <a href="#" class="btn">Shop now</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="reviews" id="reviews">
+    <h1 class="heading">Customer <span>reviews</span></h1>
+    <div class=" swiper review-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide box">
+          <img src="https://th.bing.com/th/id/OIP.xmwIHEPvxzFa-mk4zcywoQAAAA?w=148&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+            alt="man-image">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quis explicabo, cum!</p>
+          <h3>Jhon Deo</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+
+        </div>
+
+        <div class="swiper-slide box">
+          <img src="https://th.bing.com/th/id/OIP.AEmZ_Iz-wOtlT9KalmUWfAHaJQ?w=203&h=254&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+            alt="man-image">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quis explicabo, cum!</p>
+          <h3>Jhon Deo</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+
+        </div>
+
+        <div class="swiper-slide box">
+          <img src="data:image/jpeg;base64,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"
+            alt="man-image">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quis explicabo, cum!</p>
+          <h3>Jhon Deo</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+
+        </div>
+
+        <div class="swiper-slide box">
+          <img src="https://photovideolounge.com/wp-content/uploads/2019/11/formal-brunette-in-ponytail-2.jpg"
+            alt="man-image">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quis explicabo, cum!</p>
+          <h3>Jhon Deo</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+
+        </div>
+
+        <div class="swiper-slide box">
+          <img src="https://th.bing.com/th/id/OIP.kv4KOWR0d_0T56kZHIgkMAAAAA?w=203&h=304&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+            alt="man-image">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quis explicabo, cum!</p>
+          <h3>Jhon Deo</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="blogs" id="blogs">
+    <h1 class="heading">Our <span>Blogs</span></h1>
+    <div class="box-container">
+      <div class="box">
+        <img src="https://images.alphacoders.com/453/453933.jpg" alt="">
+        <div class="content">
+          <div class="icons">
+            <i class="fa-solid fa-user">  by user</i>
+            <i class="fa-solid fa-calendar">  31st Aug, 2022</i>
+          </div>
+          <h3>Fresh and OrganicVegetables</h3>
+          <p>Lorem ipsum dolor, sit amett. Expedita placeat numquam!</p>
+          <a href="#" class="btn">Read more</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="https://images8.alphacoders.com/103/1030841.jpg" alt="">
+        <div class="content">
+          <div class="icons">
+            <i class="fa-solid fa-user">  by user</i>
+            <i class="fa-solid fa-calendar">  31st Aug, 2022</i>
+          </div>
+          <h3>Fresh and Organic Fruits </h3>
+          <p>Lorem ipsum dolor, sit amet. Expedita placeat numquam!</p>
+          <a href="#" class="btn">Read more</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="https://milkyday.com/blog/wp-content/uploads/2019/06/dairy-products.jpg" alt="">
+        <div class="content">
+          <div class="icons">
+            <i class="fa-solid fa-user">  by user</i>
+            <i class="fa-solid fa-calendar">  31st Aug, 2022</i>
+          </div>
+          <h3>Fresh and Organic mlik products</h3>
+          <p>Lorem ipsum dolor, sit amet . Expedita placeat numquam!</p>
+          <a href="#" class="btn">Read more</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer">
+    <div class="box-container">
+
+      <div class="box">
+        <h3>Grocery <i class="fa-solid fa-basket-shopping"></i></h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt modi magnam!</p>
+        <div class="share">
+          <a href="#" class="fa-brands fa-facebook"></a>
+          <a href="#" class="fa-brands fa-instagram"></a>
+          <a href="#" class="fa-brands fa-square-twitter"></a>
+          <a href="#" class="fa-brands fa-linkedin"></a>
+        </div>
+      </div>
+
+      <div class="box">
+        <h3>Contact Info</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt modi magnam!</p>
+        <div class="contact">
+          <a href="#" class="links"><i class="fa-solid fa-phone"></i>+91-786-524-3982</a>
+          <a href="#" class="links"><i class="fa-solid fa-phone"></i>+91-786-525-3983</a>
+          <a href="#" class="links"><i class="fa-solid fa-envelope"></i>sk.me725@gmail.com</a>
+          <a href="#" class="links"><i class="fa-solid fa-location-dot"></i>Haryana, India,121005...</a>
+
+        </div>
+      </div>
+
+      <div class="box">
+        <h3>Quick links</h3>
+
+        <div class="link">
+          <a href="#home" class="links"><i class="fa-solid fa-arrow-right"></i>home</a>
+          <a href="#features" class="links"><i class="fa-solid fa-arrow-right"></i>features</a>
+          <a href="#products" class="links"><i class="fa-solid fa-arrow-right"></i>products</a>
+          <a href="#categories" class="links"><i class="fa-solid fa-arrow-right"></i>categories</a>
+          <a href="#reviews" class="links"><i class="fa-solid fa-arrow-right"></i>reviews</a>
+          <a href="#blogs" class="links"><i class="fa-solid fa-arrow-right"></i>Blogs</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <h3>newsletter</h3>
+        <p>Subscribe for latest updates</p>
+        <input type="email" placeholder="your email" class="email">
+        <input type="submit" value="subscribe" class="btn">
+        <img src="https://cdn-icons-png.flaticon.com/128/1086/1086741.png" alt="payment-image" class="payment-image">
+      </div>
+
+
+    </div>
+  </section>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="index3.js"></script>
+  <script src="https://kit.fontawesome.com/bbf9fe1631.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
